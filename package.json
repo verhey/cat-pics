@@ -5,12 +5,13 @@
   "main": "functions/cat.js",
   "scripts": {
     "dev": "npx ntl dev",
-    "lint": "npx prettier --check .",
+    "lint": "npx eslint .",
     "fix": "npx prettier --write ."
   },
   "author": "Dean Verhey",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.33.0",
     "netlify-cli": "^12.10.0",
     "prettier": "2.8.3"
   }

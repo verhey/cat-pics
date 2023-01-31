@@ -15,7 +15,7 @@ export const handler = async () => {
   let image
 
   try {
-    cat = pickCat()
+    const cat = pickCat()
     console.log(cat)
     image = fs.readFileSync(cat)
   } catch (error) {

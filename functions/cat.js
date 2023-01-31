@@ -1,25 +1,25 @@
-const fs = require("fs");
+const fs = require("fs")
 
 const pickCat = () => {
-  const basePath = "functions/cats";
-  const allImages = fs.readdirSync(basePath);
-  const cat = allImages[Math.floor(Math.random() * allImages.length)];
+  const basePath = "functions/cats"
+  const allImages = fs.readdirSync(basePath)
+  const cat = allImages[Math.floor(Math.random() * allImages.length)]
 
-  return [basePath, cat].join("/");
-};
+  return [basePath, cat].join("/")
+}
 
 export const handler = async () => {
-  let image;
+  let image
 
   try {
-    cat = pickCat();
-    image = fs.readFileSync(cat);
+    cat = pickCat()
+    image = fs.readFileSync(cat)
   } catch (error) {
-    console.log("error", error);
+    console.log("error", error)
     return {
       statusCode: 500,
       body: JSON.stringify({ error: error.message }),
-    };
+    }
   }
 
   return {
@@ -29,5 +29,5 @@ export const handler = async () => {
     },
     body: image.toString("base64"),
     isBase64Encoded: true,
-  };
-};
+  }
+}

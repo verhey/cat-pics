@@ -4,7 +4,9 @@
   "description": "deancatlurk",
   "main": "functions/cat.js",
   "scripts": {
-    "dev": "ntl dev"
+    "dev": "ntl dev",
+    "lint": "npx prettier --check .",
+    "fix": "npx prettier --write ."
   },
   "author": "Dean Verhey",
   "license": "ISC",

@@ -1,8 +1,11 @@
 const fs = require("fs")
+const path = require("path")
 
 const pickCat = () => {
   const basePath = "functions/cats"
-  const allImages = fs.readdirSync(basePath)
+  const allImages = fs
+    .readdirSync(basePath)
+    .filter((file) => path.extname(file).toLowerCase() === ".jpg")
   const cat = allImages[Math.floor(Math.random() * allImages.length)]
 
   return [basePath, cat].join("/")
@@ -13,6 +16,7 @@ export const handler = async () => {
 
   try {
     cat = pickCat()
+    console.log(cat)
     image = fs.readFileSync(cat)
   } catch (error) {
     console.log("error", error)

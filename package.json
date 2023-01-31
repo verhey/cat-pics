@@ -7,5 +7,9 @@
     "dev": "ntl dev"
   },
   "author": "Dean Verhey",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "netlify-cli": "^12.10.0",
+    "prettier": "^2.8.3"
+  }
 }

@@ -2,10 +2,10 @@
   "name": "cat-pics",
   "version": "1.0.0",
   "description": "deancatlurk",
-  "main": "index.js",
+  "main": "functions/cat.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ntl dev"
   },
-  "author": "",
+  "author": "Dean Verhey",
   "license": "ISC"
 }

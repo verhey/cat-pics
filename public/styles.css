@@ -1,31 +1,33 @@
+:root {
+  --lurk-hover: url("cursor.png"), auto;
+  --palette-dark-gray: #333333;
+  --palette-light-gray: #bbbbbb;
+  --palette-white-gray: #dddddd;
+}
+
 html {
-  background-color: #dddddd;
+  background-color: var(--palette-white-gray);
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #333333;
+  color: var(--palette-dark-gray);
 }
 
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   max-width: 38em;
   margin: auto;
 }
 
 main h1,
-main summary {
-  display: flex;
-  justify-content: center;
-}
-
+main summary,
 main section.cat {
-  display: flex;
   justify-content: center;
+  display: flex;
 }
 
 main section.cat img {
   border-radius: 3%;
-  border: 1px solid #333333;
+  border: 1px solid var(--palette-dark-gray);
   height: auto;
   width: 90%;
   max-width: 100%;
@@ -40,14 +42,18 @@ main nav {
 main nav div.btn {
   flex: 1rem 1rem 0px;
   padding: 1rem 3rem 1rem 3rem;
-  border: 2px solid #333333;
-  border-radius: 3%;
-  cursor: url("cursor.png"), auto;
+  border: 2px solid var(--palette-dark-gray);
+  border-radius: 6%;
+  cursor: var(--lurk-hover);
   margin: 1 rem 0rem 1rem 0rem;
-  background-color: #bbbbbb;
+  background-color: var(--palette-light-gray);
 }
 
 main summary {
   font-style: italic;
   text-align: center;
+}
+
+main summary p a {
+  cursor: var(--lurk-hover);
 }

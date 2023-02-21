@@ -1,5 +1,7 @@
 html {
   background-color: #dddddd;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #333333;
 }
 
 main {
@@ -8,8 +10,6 @@ main {
   justify-content: center;
   max-width: 38em;
   margin: auto;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #333333;
 }
 
 main h1,
@@ -49,4 +49,5 @@ main nav div.btn {
 
 main summary {
   font-style: italic;
+  text-align: center;
 }

@@ -2,18 +2,18 @@
 
 ## Synopsis
 
-A site that serves a random picture of my cat. That's about it.
+A site that serves a random picture of my cat. That's about it. Built mostly as a re-familiarization exercise with JS/CSS.
+
+<img width="1012" alt="image" src="https://user-images.githubusercontent.com/22968861/220535377-3afde130-d3a2-40ed-80cd-9fadaa62e20d.png">
 
 Built using NodeJS, Netlify Functions, and years of curated cat pictures.
 
 See it live [here](https://deancat.netlify.app)
 
-<img width="1012" alt="image" src="https://user-images.githubusercontent.com/22968861/220535377-3afde130-d3a2-40ed-80cd-9fadaa62e20d.png">
-
 ## Dependencies
 
-- A reasonably recent version of Node - I'm using v19
-- A [Netlify](https://app.netlify.com/) account - free is fine
+- A reasonably recent version of Node - I'm using v19 but 17 and 18 and probably anything after 14 or so should work too.
+- A [Netlify](https://app.netlify.com/) account - free tier is fine
 
 ## Structure
 
@@ -39,8 +39,8 @@ See it live [here](https://deancat.netlify.app)
 
 - Fork it and use it for your cat or dog or something
 - There are some small enhancements I'd like to make eventually, but I don't intend to bloat the scope of this.
-  - Add a CI step to run prettier + eslint
   - Don't let the function return the same image twice in a row
     - Suggestions: Pass the current image in subsequent requests to the same endpoint, filter it out of results before returning
   - Change to git LFS/Netlify Large Media instead of checking in the full cat pictures to version control
   - Make the transition when loading a new picture a little less jarring - the full page repaint can look janky in some browsers
+  - Add tests... I'm a professional software engineer, I swear

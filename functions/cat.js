@@ -30,7 +30,7 @@ export const handler = async () => {
     statusCode: 200,
     headers: {
       "Content-Type": "image/jpg",
-      "Cache-Control": "no-cache"
+      "Cache-Control": "no-cache",
     },
     body: image.toString("base64"),
     isBase64Encoded: true,

@@ -7,6 +7,7 @@
     "auth": "npx ntl login",
     "dev": "npx ntl dev",
     "lint": "npx eslint .",
+    "check": "npx prettier --check .",
     "fix": "npx prettier --write ."
   },
   "author": "Dean Verhey",

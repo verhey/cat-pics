@@ -1,0 +1,4 @@
+# Set the default behavior, in case of core.autocrlf being unset
+* text=auto
+*.png binary
+*.jpg binary

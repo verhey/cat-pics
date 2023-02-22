@@ -1,9 +1,10 @@
 {
   "name": "cat-pics",
   "version": "1.0.0",
-  "description": "deancatlurk",
+  "description": "Random pictures of my cat",
   "main": "functions/cat.js",
   "scripts": {
+    "auth": "npx ntl login",
     "dev": "npx ntl dev",
     "lint": "npx eslint .",
     "fix": "npx prettier --write ."

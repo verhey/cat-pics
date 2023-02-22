@@ -2,8 +2,9 @@
 
 ## Synopsis
 
-A site that serves a random picture of my cat.
-Built using Netlify Functions to pick and serve a random picture
+A site that serves a random picture of my cat. That's about it.
+
+Built using NodeJS, Netlify Functions, and years of curated cat pictures.
 
 See it live at [TODO ADD LINK](google.com)
 

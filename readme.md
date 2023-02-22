@@ -6,7 +6,9 @@ A site that serves a random picture of my cat. That's about it.
 
 Built using NodeJS, Netlify Functions, and years of curated cat pictures.
 
-See it live at [TODO ADD LINK](google.com)
+See it live [here](https://deancat.netlify.app)
+
+<img width="1012" alt="image" src="https://user-images.githubusercontent.com/22968861/220535377-3afde130-d3a2-40ed-80cd-9fadaa62e20d.png">
 
 ## Dependencies
 
@@ -41,3 +43,4 @@ See it live at [TODO ADD LINK](google.com)
   * Don't let the function return the same image twice in a row
     * Suggestions: Pass the current image in subsequent requests to the same endpoint, filter it out of results before returning
   * Change to git LFS/Netlify Large Media instead of checking in the full cat pictures to version control
+  * Make the transition when loading a new picture a little less jarring - the full page repaint can look janky in some browsers

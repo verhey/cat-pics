@@ -12,7 +12,7 @@ See it live [here](https://deancat.netlify.app)
 
 ## Dependencies
 
-- A reasonably recent version of Node - I'm using v19 but 17 and 18 and probably anything after 14 or so should work too.
+- A reasonably recent version of Node - I'm using v23 but anything after 19 or so should work too.
 - A [Netlify](https://app.netlify.com/) account - free tier is fine
 
 ## Structure

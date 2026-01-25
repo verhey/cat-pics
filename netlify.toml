@@ -2,9 +2,10 @@
 	command = "# no build command"
 	functions = "functions"
 	publish = "public"
+	image = "ubuntu:noble"
 
 [build.environment]
-	NODE_VERSION = "20"
+	NODE_VERSION = "22"
 
 [functions]
     node_bundler = "esbuild"

@@ -6,14 +6,12 @@
   "scripts": {
     "auth": "npx ntl login",
     "dev": "npx ntl dev",
-    "lint": "npx eslint .",
     "check": "npx prettier --check .",
     "fix": "npx prettier --write ."
   },
   "author": "Dean Verhey",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^10.2.0",
     "netlify-cli": "^24.11.3",
     "prettier": "^3.8.3"
   }

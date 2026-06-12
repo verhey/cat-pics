@@ -13,6 +13,6 @@
   "license": "ISC",
   "devDependencies": {
     "netlify-cli": "^26.1.0",
-    "prettier": "^3.8.3"
+    "prettier": "^3.8.4"
   }
 }

@@ -12,7 +12,7 @@
   "author": "Dean Verhey",
   "license": "ISC",
   "devDependencies": {
-    "netlify-cli": "^26.2.0",
+    "netlify-cli": "^27.0.1",
     "prettier": "^3.9.6"
   }
 }
